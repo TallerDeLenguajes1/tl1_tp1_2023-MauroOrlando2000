@@ -8,7 +8,7 @@ int main()
 
     memory = sizeof(variable);
 
-    printf("La direccion de memoria almacenada en el puntero es: %d\n", punt);
+    printf("El contenido del puntero es: %d\n", punt);
     printf("La direccion de memoria de la variable es: %d\n", &variable);
     printf("La direccion de memoria del puntero es: %d\n", &punt);
     printf("La cantidad de memoria usada por la variable es: %d\n", memory);
